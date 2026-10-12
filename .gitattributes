@@ -1,0 +1,3 @@
+sources/** text eol=lf
+ruleset/** text eol=lf
+*.py text eol=lf

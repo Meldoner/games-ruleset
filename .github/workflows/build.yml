@@ -1,0 +1,52 @@
+name: Build games ruleset
+
+on:
+  schedule:
+    - cron: "17 3 * * *"        # every day at 03:17 UTC (06:17 MSK)
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:            # "Run workflow" button
+
+permissions:
+  contents: write               # commit the result back to the repo
+
+concurrency:
+  group: build-ruleset
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Discord: detectable list. NVIDIA: current fingerprint.db from the public
+      # ontology manifest (sha256 checked). Xbox: newest KGL revision after
+      # sources/xbox_rev.txt, unpacked in pure Python. A source that fails falls
+      # back to its last snapshot in sources/*.tsv.
+      - name: Build ruleset
+        run: >
+          python all_games_to_mihomo.py --remote --no-registry
+          --collapse-ue --anticheat --path-rules --case-insensitive
+          --no-timestamp --sources-dir sources
+          -o ruleset/games.yaml --text-output ruleset/games.txt
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add sources ruleset
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git diff --cached --stat
+          git commit -m "Update games ruleset $(date -u +%F)"
+          git push
