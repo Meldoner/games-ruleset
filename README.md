@@ -38,8 +38,8 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: https://raw.githubusercontent.com/USER/games-ruleset/main/ruleset/games.yaml
-    # или через CDN: https://cdn.jsdelivr.net/gh/USER/games-ruleset@main/ruleset/games.yaml
+    url: https://raw.githubusercontent.com/Meldoner/games-ruleset/main/ruleset/games.yaml
+    # или через CDN: https://cdn.jsdelivr.net/gh/Meldoner/games-ruleset@main/ruleset/games.yaml
     path: ./ruleset/games.yaml
     interval: 86400
     # proxy: PROXY   # если raw.githubusercontent.com недоступен напрямую
