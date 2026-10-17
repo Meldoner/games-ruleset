@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13881
+# Rules: 13883
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -4052,6 +4052,7 @@ PROCESS-NAME-REGEX,(?i)^fc25_trial\.exe$
 PROCESS-NAME-REGEX,(?i)^fc26\.exe$
 PROCESS-NAME-REGEX,(?i)^fc26_showcase\.exe$
 PROCESS-NAME-REGEX,(?i)^fc26_trial\.exe$
+PROCESS-NAME-REGEX,(?i)^FC27\.exe$
 PROCESS-NAME-REGEX,(?i)^fc3_blooddragon\.exe$
 PROCESS-NAME-REGEX,(?i)^fc3_blooddragon_d3d11\.exe$
 PROCESS-NAME-REGEX,(?i)^fc3_blooddragon_d3d11_b\.exe$
@@ -7872,6 +7873,7 @@ PROCESS-NAME-REGEX,(?i)^neighbours back from hell\.exe$
 PROCESS-NAME-REGEX,(?i)^nejisimtma02trial\.exe$
 PROCESS-NAME-REGEX,(?i)^neko arena\.exe$
 PROCESS-NAME-REGEX,(?i)^nekojishi\.exe$
+PROCESS-NAME-REGEX,(?i)^nekomedemo\.exe$
 PROCESS-NAME-REGEX,(?i)^nekopara - catboys paradise\.exe$
 PROCESS-NAME-REGEX,(?i)^nekopara\.exe$
 PROCESS-NAME-REGEX,(?i)^nekopara_extra\.exe$
