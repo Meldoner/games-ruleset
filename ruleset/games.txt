@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13883
+# Rules: 13886
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -102,6 +102,9 @@ PROCESS-NAME-REGEX,(?i)^3DMarkSpeedWay\.exe$
 PROCESS-NAME-REGEX,(?i)^3DMarkTimeSpy\.exe$
 PROCESS-NAME-REGEX,(?i)^3dnes\.exe$
 PROCESS-NAME-REGEX,(?i)^3dsexvilla2\.exe$
+PROCESS-NAME-REGEX,(?i)^4249100_launcher\.exe$
+PROCESS-NAME-REGEX,(?i)^4249110_launcher\.exe$
+PROCESS-NAME-REGEX,(?i)^4249120_launcher\.exe$
 PROCESS-NAME-REGEX,(?i)^4249130_launcher\.exe$
 PROCESS-NAME-REGEX,(?i)^4249140_launcher\.exe$
 PROCESS-NAME-REGEX,(?i)^428 shibuya scramble\.exe$
