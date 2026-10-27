@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13886
+# Rules: 13885
 payload:
   - 'PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$'
@@ -9885,7 +9885,6 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^rune factory 3 special\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^rune factory 5\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^runeborn\.exe$'
-  - 'PROCESS-NAME-REGEX,(?i)^runelite\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^runescape\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^rungore\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^runner\.exe$'
