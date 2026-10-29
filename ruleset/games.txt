@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13885
+# Rules: 13888
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -215,9 +215,11 @@ PROCESS-NAME-REGEX,(?i)^ACE-Launcher64\.exe$
 PROCESS-NAME-REGEX,(?i)^ace7game\.exe$
 PROCESS-NAME-REGEX,(?i)^AceCombat8\.exe$
 PROCESS-NAME-REGEX,(?i)^aces and adventures\.exe$
+PROCESS-NAME-REGEX,(?i)^aces-gdk\.exe$
 PROCESS-NAME-REGEX,(?i)^aces-min-cpu\.exe$
 PROCESS-NAME-REGEX,(?i)^aces\.exe$
 PROCESS-NAME-REGEX,(?i)^aces64\.exe$
+PROCESS-NAME-REGEX,(?i)^aces_BE\.exe$
 PROCESS-NAME-REGEX,(?i)^aceshighsteam\.exe$
 PROCESS-NAME-REGEX,(?i)^acess\.exe$
 PROCESS-NAME-REGEX,(?i)^acfc\.exe$
@@ -8639,6 +8641,7 @@ PROCESS-NAME-REGEX,(?i)^pbsvc\.exe$
 PROCESS-NAME-REGEX,(?i)^pbsvc_bc2\.exe$
 PROCESS-NAME-REGEX,(?i)^pbsvc_hos\.exe$
 PROCESS-NAME-REGEX,(?i)^pbsvc_pg\.exe$
+PROCESS-NAME-REGEX,(?i)^PBZ\.exe$
 PROCESS-NAME-REGEX,(?i)^pcars\.exe$
 PROCESS-NAME-REGEX,(?i)^pCARS2\.exe$
 PROCESS-NAME-REGEX,(?i)^pcars2avx\.exe$
