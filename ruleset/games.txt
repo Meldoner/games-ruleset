@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13888
+# Rules: 13889
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -7606,6 +7606,7 @@ PROCESS-NAME-REGEX,(?i)^mortal\.exe$
 PROCESS-NAME-REGEX,(?i)^mortalonline\.exe$
 PROCESS-NAME-REGEX,(?i)^MortalOnline2\.exe$
 PROCESS-NAME-REGEX,(?i)^mortalroyale\.exe$
+PROCESS-NAME-REGEX,(?i)^MortalShell2\.exe$
 PROCESS-NAME-REGEX,(?i)^morticianstale\.exe$
 PROCESS-NAME-REGEX,(?i)^mosa lina\.exe$
 PROCESS-NAME-REGEX,(?i)^Mosaic Garden\.exe$
