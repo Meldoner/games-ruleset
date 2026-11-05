@@ -1,1 +1,1 @@
-https://wpc-download.gfe.nvidia.com/static/d189208a/fingerprint.db
+https://wpc-download.gfe.nvidia.com/static/fe410e3d/fingerprint.db
