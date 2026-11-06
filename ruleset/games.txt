@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13890
+# Rules: 13891
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -2636,6 +2636,7 @@ PROCESS-NAME-REGEX,(?i)^daysgone\.exe$
 PROCESS-NAME-REGEX,(?i)^dayz\.exe$
 PROCESS-NAME-REGEX,(?i)^DayZ_BE\.exe$
 PROCESS-NAME-REGEX,(?i)^dayz_x64\.exe$
+PROCESS-NAME-REGEX,(?i)^DayZLauncher\.exe$
 PROCESS-NAME-REGEX,(?i)^dayzserver_x64\.exe$
 PROCESS-NAME-REGEX,(?i)^dayzuninstaller\.exe$
 PROCESS-NAME-REGEX,(?i)^dbf\.exe$
