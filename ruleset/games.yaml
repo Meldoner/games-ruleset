@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13891
+# Rules: 13892
 payload:
   - 'PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$'
@@ -5946,6 +5946,7 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^invisibleinc\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^invisigun heroes\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^invisigun\.exe$'
+  - 'PROCESS-NAME-REGEX,(?i)^invokers\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^inyshadowsinterwovenhearts\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^inZOI\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^ioawn4t\.exe$'
