@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13892
+# Rules: 13893
 payload:
   - 'PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$'
@@ -4971,6 +4971,7 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^grapple gear\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^grapple\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^grapples galore\.exe$'
+  - 'PROCESS-NAME-REGEX,(?i)^graszyfrow\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^gravebound\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^graveyard keeper\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^gravity wars\.exe$'
