@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13893
+# Rules: 13894
 payload:
   - 'PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$'
@@ -9714,6 +9714,7 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^roadredemptionearlyaccessv1\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^roadside research\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^roadwarden\.exe$'
+  - 'PROCESS-NAME-REGEX,(?i)^ROB RUN\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^rob\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^robberybob\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^robin morningwood adventure\.exe$'
