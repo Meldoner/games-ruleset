@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13894
+# Rules: 13896
 payload:
   - 'PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$'
@@ -637,6 +637,7 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^arcanists\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^archeage\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^ArcheAge_Launcher\.exe$'
+  - 'PROCESS-NAME-REGEX,(?i)^ArcheAgeChronicles\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^ArcheAgeDiag\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^Archean\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^archeblade\.exe$'
@@ -13618,6 +13619,7 @@ payload:
   - 'PROCESS-NAME-REGEX,(?i)^xiaoji\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^xiii\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^XLauncher\.exe$'
+  - 'PROCESS-NAME-REGEX,(?i)^xldr_ArcheageChronicles_GL_loader_x64\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^xonotic\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^xoxo_droplets\.exe$'
   - 'PROCESS-NAME-REGEX,(?i)^xoxoblooddroplets\.exe$'
