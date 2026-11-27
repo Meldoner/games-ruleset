@@ -2,7 +2,7 @@
 # Source: Discord detectable
 # Source: NVIDIA fingerprint.db
 # Source: Xbox KnownGameList
-# Rules: 13896
+# Rules: 13897
 PROCESS-NAME-REGEX,(?i)-win(?:64|32|gdk)-shipping\.exe$
 PROCESS-NAME-REGEX,(?i)^start_protected_game\.exe$
 PROCESS-NAME-REGEX,(?i)^EasyAntiCheat\.exe$
@@ -10048,6 +10048,7 @@ PROCESS-NAME-REGEX,(?i)^Sand_BE\.exe$
 PROCESS-NAME-REGEX,(?i)^sandbox\.exe$
 PROCESS-NAME-REGEX,(?i)^sandboxels\.exe$
 PROCESS-NAME-REGEX,(?i)^SandFall\.exe$
+PROCESS-NAME-REGEX,(?i)^SandFallGOG\.exe$
 PROCESS-NAME-REGEX,(?i)^sandrock\.exe$
 PROCESS-NAME-REGEX,(?i)^sandrockmultiplayer\.exe$
 PROCESS-NAME-REGEX,(?i)^sandtrix\.exe$
